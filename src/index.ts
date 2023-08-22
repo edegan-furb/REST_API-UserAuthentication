@@ -22,8 +22,8 @@ app.use(bodyParser.json());
 
 const server = http.createServer(app);
 
-server.listen(3030, () => {
-  console.log("server running on http://localhost:3030");
+server.listen(8080, () => {
+  console.log("server running on http://localhost:8080");
 });
 
 require("dotenv").config();
