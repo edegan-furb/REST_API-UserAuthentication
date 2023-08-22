@@ -1,10 +1,10 @@
 import express from "express";
 
-import authentification from "./authentification";
+import authentication from "./authentication";
 
 const router = express.Router();
 
 export default (): express.Router => {
-  authentification(router);
+  authentication(router);
   return router;
 };
