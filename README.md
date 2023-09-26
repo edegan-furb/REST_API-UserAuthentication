@@ -1,7 +1,7 @@
 # REST API
 
-
-
+- User Authentication by Session Token
+  
 ---
   
 ### Languages and Tools :
